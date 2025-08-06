@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# 🚀 ADmyBRAND Insights Dashboard
 
-## Project info
+A sleek, responsive, real-time **analytics dashboard** designed for **digital marketing insights**. Built using modern technologies with a focus on clean UI, interactive data visualization, and performance.
 
-**URL**: https://lovable.dev/projects/a66d29bc-e7c6-44b6-a9db-2b6d13892c92
+🌐 **Live Demo:** [http://localhost:8080/]  
+💡 Built for the **AI Vibe Coder Challenge - Task A**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✅ Core Features
 
-**Use Lovable**
+### 📊 Dashboard Essentials
+- ✔️ **Overview Cards** – Revenue, Users, Conversions, Growth %
+- 📈 **Charts**:
+  - **Line Chart** – Revenue trends
+  - **Bar Chart** – Conversions per campaign
+  - **Pie Chart** – Traffic sources
+- 🧮 **Advanced Data Table**:
+  - Sortable, filterable, paginated
+- 📅 **Date Range Filtering**
+- 🔄 **Real-Time Data Simulation** – Live metric updates every 5 seconds
+- 📤 **Export Options** – Export to CSV with a PDF menu
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a66d29bc-e7c6-44b6-a9db-2b6d13892c92) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎨 UI/UX Excellence
+- 🌓 **Dark / Light Mode** toggle
+- 💫 Smooth **animations**, **hover effects**, and **loading skeletons**
+- 💎 Polished **design system** (colors, spacing, typography)
+- 📱 Fully **responsive design** – Optimized for desktop, tablet, mobile
+- 🧩 Beautiful **visual hierarchy** and layout grid
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Purpose         | Tech Used                         |
+|-----------------|------------------------------------|
+| Framework       | React 18 + TypeScript             |
+| Styling         | Tailwind CSS                      |
+| UI Components   | [shadcn/ui](https://ui.shadcn.com) |
+| Charts          | Recharts                          |
+| Theme Switching | next-themes                       |
+| Date Handling   | date-fns                          |
+| Build Tool      | Vite                              |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧱 Architecture
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 📦 **Component-Based** – Modular, reusable, maintainable structure
+- 📊 **Mock Data Service** – Simulated campaigns and traffic sources
+- 🧠 **Type Safety** – Full TypeScript interfaces
+- ⚡ **Performance Optimized** – Efficient updates and smooth transitions
+- 📁 **Responsive Grid** – Layout works perfectly across all devices
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a66d29bc-e7c6-44b6-a9db-2b6d13892c92) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
